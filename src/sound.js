@@ -4,6 +4,45 @@
 
 let ctx = null;
 
+// The one shared audio context, for sounds made outside this file too.
+export function audioContext() {
+  const Ctx = window.AudioContext || window.webkitAudioContext;
+  if (!Ctx) return null;
+  ctx ??= new Ctx();
+  if (ctx.state === "suspended") ctx.resume();
+  return ctx;
+}
+
+// Safari keeps web audio locked until a real tap, click or key press (a
+// finger landing isn't enough), and an iPhone on silent mutes it unless the
+// page says it's playing media. So on the first few gestures, wake the
+// context with a moment of silence and ask to play through the switch.
+export function installAudioUnlock() {
+  try {
+    if (navigator.audioSession) navigator.audioSession.type = "playback";
+  } catch {
+    // older Safari: the silent switch still mutes it
+  }
+  const events = ["touchend", "click", "keydown"];
+  const unlock = () => {
+    try {
+      const c = audioContext();
+      if (!c) return;
+      const src = c.createBufferSource();
+      src.buffer = c.createBuffer(1, 1, c.sampleRate);
+      src.connect(c.destination);
+      src.start();
+      c.resume().then(() => {
+        if (c.state === "running")
+          events.forEach((e) => window.removeEventListener(e, unlock, true));
+      });
+    } catch {
+      // no audio
+    }
+  };
+  events.forEach((e) => window.addEventListener(e, unlock, true));
+}
+
 export function playPaper() {
   try {
     const Ctx = window.AudioContext || window.webkitAudioContext;

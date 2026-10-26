@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import { installChalkDraw, installPaperTaps, installTypewriter } from "./sound.js";
+import { installAudioUnlock, installChalkDraw, installPaperTaps, installTypewriter } from "./sound.js";
 import "./fonts.css";
 import "./styles.css";
 
+installAudioUnlock();
 installPaperTaps();
 installTypewriter();
 installChalkDraw();

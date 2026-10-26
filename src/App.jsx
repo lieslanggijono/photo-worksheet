@@ -15,7 +15,7 @@ import {
   loadTrips,
 } from "./photos.js";
 import { Crayon, Phone, Toast } from "./ui.jsx";
-import { playKey } from "./sound.js";
+import { audioContext, playKey } from "./sound.js";
 import Write from "./Write.jsx";
 import Choose from "./Choose.jsx";
 import { Share, Story } from "./Story.jsx";
@@ -969,9 +969,8 @@ const ALLOW_LABEL = "Allow photo access";
 // crackle and fade, like fibers giving way along the perforation.
 function playRip() {
   try {
-    const Ctx = window.AudioContext || window.webkitAudioContext;
-    if (!Ctx) return;
-    const ctx = new Ctx();
+    const ctx = audioContext();
+    if (!ctx) return;
     const dur = 0.55;
     const buf = ctx.createBuffer(1, Math.floor(ctx.sampleRate * dur), ctx.sampleRate);
     const data = buf.getChannelData(0);
@@ -993,7 +992,6 @@ function playRip() {
     gain.gain.value = 0.55;
     src.connect(band).connect(gain).connect(ctx.destination);
     src.start();
-    src.onended = () => ctx.close();
   } catch {
     // no audio: the tear still happens silently
   }
