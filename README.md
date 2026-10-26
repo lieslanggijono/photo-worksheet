@@ -13,4 +13,4 @@ npm install
 npm run dev
 ```
 
-The live prototype is the `gh-pages` branch: `BASE=/photo-worksheet/ npm run build`, then publish `dist/` there.
+The live prototype is the `gh-pages` branch: `BASE=/photo-worksheet/ VITE_PUBLIC=1 npm run build` (phone only, no decision lab), then publish `dist/` there.

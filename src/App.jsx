@@ -115,6 +115,9 @@ function freshStory(range, title) {
   };
 }
 
+// The public build (GitHub Pages) shows only the phone: no decision lab, no caption.
+const PUBLIC = import.meta.env.VITE_PUBLIC === "1";
+
 // A real phone (the prototype shows full screen there, no lab or frame).
 const onPhone = () => window.matchMedia?.("(max-width: 600px)").matches;
 
@@ -426,7 +429,7 @@ export default function App() {
   };
 
   return (
-    <div className="app">
+    <div className={`app ${PUBLIC ? "public" : ""}`}>
       <svg width="0" height="0" style={{ position: "absolute" }} aria-hidden>
         <filter id="crayon">
           <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" result="n" />
