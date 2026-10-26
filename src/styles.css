@@ -942,7 +942,7 @@ button:disabled { cursor: default; opacity: 0.35; }
 
 /* ---------- all pages: spaced like the choose-photos grid ---------- */
 .pg-head { padding: 16px 22px 0; align-items: flex-start; }
-.pg-title { font-family: var(--sans) !important; letter-spacing: -0.01em !important; font-size: 22px; font-weight: 500; }
+.pg-title { font-size: 26px; }
 .pg-grid { gap: 12px 8px; padding: 16px 22px 40px; }
 .pg-num { font-size: 10px; }
 
@@ -1309,3 +1309,10 @@ button:disabled { cursor: default; opacity: 0.35; }
 /* Public build: just the phone, centred on the page. */
 .app.public { grid-template-columns: 1fr; }
 .app.public .lab, .app.public .stage-caption { display: none; }
+
+/* Safari won't lay out a <button> as a grid, so centre the add-tile + with flex. */
+.mtile.add { display: flex; align-items: center; justify-content: center; }
+.mtile.add svg { margin: 0; }
+
+/* Breathing room between "Your N pages" and the hint under it. */
+.pg-head .overview-meta { margin-top: 8px; }
