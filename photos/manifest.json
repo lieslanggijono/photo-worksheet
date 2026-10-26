@@ -1,0 +1,316 @@
+{
+ "trips": [
+  {
+   "id": "arizona",
+   "title": "Arcosanti",
+   "place": "Arizona",
+   "photos": [
+    {
+     "file": "/photos/arizona/IMG_7104.jpg",
+     "time": "2026-10-09T16:28:16+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7108.jpg",
+     "time": "2026-10-09T20:26:06+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7123.jpg",
+     "time": "2026-10-09T23:58:18+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7139.jpg",
+     "time": "2026-10-10T00:12:05+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7141.jpg",
+     "time": "2026-10-10T00:35:40+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7162.jpg",
+     "time": "2026-10-10T01:01:51+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7163.jpg",
+     "time": "2026-10-10T01:04:30+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_8225.jpg",
+     "time": "2026-10-10T01:11:41+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7218.jpg",
+     "time": "2026-10-10T01:19:35+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7220.jpg",
+     "time": "2026-10-10T01:20:49+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7225.jpg",
+     "time": "2026-10-10T02:32:14+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7233.jpg",
+     "time": "2026-10-10T02:54:53+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7235.jpg",
+     "time": "2026-10-10T02:56:27+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7242.jpg",
+     "time": "2026-10-10T03:20:34+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7245.jpg",
+     "time": "2026-10-10T03:23:21+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7279.jpg",
+     "time": "2026-10-10T06:33:59+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7280.jpg",
+     "time": "2026-10-10T06:34:30+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7316.jpg",
+     "time": "2026-10-10T23:56:05+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7338.jpg",
+     "time": "2026-10-11T00:58:46+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7346.jpg",
+     "time": "2026-10-11T02:00:17+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7350.jpg",
+     "time": "2026-10-11T02:01:37+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7459.jpg",
+     "time": "2026-10-11T02:25:29+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7486.jpg",
+     "time": "2026-10-11T03:31:06+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7494.jpg",
+     "time": "2026-10-11T05:10:07+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7500.jpg",
+     "time": "2026-10-11T06:13:35+00:00"
+    },
+    {
+     "file": "/photos/arizona/dijie-library-export-EC019277-C609-467C-B3E6-F6DF32058364-11A7C540-E9B0-4309-8BAD-E17FEEB9661C.jpg",
+     "time": "2026-10-11T06:45:52+00:00"
+    },
+    {
+     "file": "/photos/arizona/dijie-library-export-BE4E9FB3-6176-4CD2-9A7E-5B6F618F143F-E42D020E-8AD1-40A9-AC16-BB111ED11ECD.jpg",
+     "time": "2026-10-11T06:47:42+00:00"
+    },
+    {
+     "file": "/photos/arizona/dijie-library-export-30817381-F21D-4EBE-8A4D-C1715A7B9200-3157ACED-3431-4156-B525-E0B9DC86994B.jpg",
+     "time": "2026-10-11T07:06:22+00:00"
+    },
+    {
+     "file": "/photos/arizona/dijie-library-export-2E1767DE-466C-4F40-B912-07D8F55DF5B3-8857F8BE-7677-4A7E-9592-AF293191D57D.jpg",
+     "time": "2026-10-11T10:37:02+00:00"
+    },
+    {
+     "file": "/photos/arizona/dijie-library-export-2736EB73-0D70-40A1-960E-FAFD4CAA6D75-12272660-00CF-442D-8C6A-B5F6ED2AE44B.jpg",
+     "time": "2026-10-11T23:27:52+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7585.jpg",
+     "time": "2026-10-12T00:23:44+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7607.jpg",
+     "time": "2026-10-12T00:40:03+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7636.jpg",
+     "time": "2026-10-12T02:28:48+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7669.jpg",
+     "time": "2026-10-12T16:05:38+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7692.jpg",
+     "time": "2026-10-12T17:39:00+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7708.jpg",
+     "time": "2026-10-12T21:45:53+00:00"
+    },
+    {
+     "file": "/photos/arizona/dijie-library-export-DD9FEAE9-039B-4ED0-B0AA-DB56E0B2888E-FC71B77D-0EF9-40D4-AC31-C2E36844026A.jpg",
+     "time": "2026-10-12T23:06:54+00:00"
+    },
+    {
+     "file": "/photos/arizona/IMG_7781.jpg",
+     "time": "2026-10-13T00:52:46+00:00"
+    }
+   ],
+   "cover": "/photos/arizona/IMG_7162.jpg"
+  },
+  {
+   "id": "maison-kanatha",
+   "title": "Maison Kanatha",
+   "place": "",
+   "photos": [
+    {
+     "file": "/photos/maison-kanatha/IMG_6019.jpg",
+     "time": "2026-09-07T02:16:34+00:00"
+    },
+    {
+     "file": "/photos/maison-kanatha/IMG_6021.jpg",
+     "time": "2026-09-07T02:21:11+00:00"
+    },
+    {
+     "file": "/photos/maison-kanatha/IMG_6029.jpg",
+     "time": "2026-09-07T02:27:57+00:00"
+    },
+    {
+     "file": "/photos/maison-kanatha/IMG_6030.jpg",
+     "time": "2026-09-07T02:31:23+00:00"
+    },
+    {
+     "file": "/photos/maison-kanatha/IMG_6037.jpg",
+     "time": "2026-09-07T02:33:12+00:00"
+    },
+    {
+     "file": "/photos/maison-kanatha/IMG_6045.jpg",
+     "time": "2026-09-07T02:45:04+00:00"
+    },
+    {
+     "file": "/photos/maison-kanatha/IMG_6068.jpg",
+     "time": "2026-09-07T03:28:02+00:00"
+    }
+   ],
+   "cover": "/photos/maison-kanatha/IMG_6045.jpg"
+  },
+  {
+   "id": "santa-barbara",
+   "title": "Santa Barbara",
+   "place": "California",
+   "photos": [
+    {
+     "file": "/photos/santa-barbara/IMG_1005.jpg",
+     "time": "2026-05-28T22:59:19+00:00"
+    },
+    {
+     "file": "/photos/santa-barbara/IMG_0106.jpg",
+     "time": "2026-05-28T23:47:22+00:00"
+    },
+    {
+     "file": "/photos/santa-barbara/IMG_1036.jpg",
+     "time": "2026-05-29T01:57:23+00:00"
+    },
+    {
+     "file": "/photos/santa-barbara/IMG_1055.jpg",
+     "time": "2026-05-29T02:25:34+00:00"
+    },
+    {
+     "file": "/photos/santa-barbara/IMG_1070.jpg",
+     "time": "2026-05-29T02:41:43+00:00"
+    },
+    {
+     "file": "/photos/santa-barbara/IMG_1110.jpg",
+     "time": "2026-05-29T03:21:46+00:00"
+    },
+    {
+     "file": "/photos/santa-barbara/IMG_1158.jpg",
+     "time": "2026-05-29T03:31:35+00:00"
+    },
+    {
+     "file": "/photos/santa-barbara/IMG_1164.jpg",
+     "time": "2026-05-29T05:09:09+00:00"
+    },
+    {
+     "file": "/photos/santa-barbara/IMG_1262.jpg",
+     "time": "2026-05-29T05:55:45+00:00"
+    },
+    {
+     "file": "/photos/santa-barbara/IMG_0014.jpg",
+     "time": "2026-05-30T00:55:39+00:00"
+    },
+    {
+     "file": "/photos/santa-barbara/IMG_1377.jpg",
+     "time": "2026-05-30T02:04:02+00:00"
+    },
+    {
+     "file": "/photos/santa-barbara/IMG_1453.jpg",
+     "time": "2026-05-30T03:00:52+00:00"
+    },
+    {
+     "file": "/photos/santa-barbara/IMG_1460.jpg",
+     "time": "2026-05-30T03:08:22+00:00"
+    }
+   ],
+   "cover": "/photos/santa-barbara/IMG_0014.jpg"
+  },
+  {
+   "id": "niseko",
+   "title": "Niseko",
+   "place": "Hokkaido",
+   "photos": [
+    {
+     "file": "/photos/niseko/IMG_4196.jpg",
+     "time": "2026-01-08T21:33:30+00:00"
+    },
+    {
+     "file": "/photos/niseko/IMG_4213.jpg",
+     "time": "2026-01-08T22:32:42+00:00"
+    },
+    {
+     "file": "/photos/niseko/IMG_4221.jpg",
+     "time": "2026-01-08T23:51:57+00:00"
+    },
+    {
+     "file": "/photos/niseko/IMG_4229.jpg",
+     "time": "2026-01-09T01:30:02+00:00"
+    },
+    {
+     "file": "/photos/niseko/IMG_6827.jpg",
+     "time": "2026-01-09T04:16:02+00:00"
+    },
+    {
+     "file": "/photos/niseko/IMG_4260.jpg",
+     "time": "2026-01-09T06:53:27+00:00"
+    },
+    {
+     "file": "/photos/niseko/IMG_4265.jpg",
+     "time": "2026-01-09T07:09:11+00:00"
+    },
+    {
+     "file": "/photos/niseko/IMG_4266.jpg",
+     "time": "2026-01-09T07:10:20+00:00"
+    },
+    {
+     "file": "/photos/niseko/IMG_4276.jpg",
+     "time": "2026-01-09T07:49:51+00:00"
+    },
+    {
+     "file": "/photos/niseko/IMG_4277.jpg",
+     "time": "2026-01-09T08:34:15+00:00"
+    },
+    {
+     "file": "/photos/niseko/IMG_4283.jpg",
+     "time": "2026-01-09T19:07:45+00:00"
+    },
+    {
+     "file": "/photos/niseko/IMG_4305.jpg",
+     "time": "2026-01-10T06:45:29+00:00"
+    }
+   ],
+   "cover": "/photos/niseko/IMG_4221.jpg"
+  }
+ ]
+}
