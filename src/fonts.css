@@ -1,0 +1,24 @@
+/* Trial/test fonts (not licensed for production), in public/fonts. */
+@font-face { font-family: "Die Grotesk"; src: url("/fonts/TestDieGrotesk-B-Regular.otf") format("opentype"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Die Grotesk"; src: url("/fonts/TestDieGrotesk-B-Italic.otf") format("opentype"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Die Grotesk"; src: url("/fonts/TestDieGrotesk-B-Medium.otf") format("opentype"); font-weight: 500 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Die Grotesk"; src: url("/fonts/TestDieGrotesk-B-Bold.otf") format("opentype"); font-weight: 700 900; font-style: normal; font-display: swap; }
+
+/* Self-hosted fonts (SIL Open Font License), in public/fonts. */
+@font-face { font-family: "Inter"; src: url("/fonts/inter-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Source Serif 4"; src: url("/fonts/source-serif-4-latin-opsz-normal.woff2") format("woff2"); font-weight: 200 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Source Serif 4"; src: url("/fonts/source-serif-4-latin-opsz-italic.woff2") format("woff2"); font-weight: 200 900; font-style: italic; font-display: swap; }
+@font-face { font-family: "Crimson Pro"; src: url("/fonts/crimson-pro-latin-wght-normal.woff2") format("woff2"); font-weight: 200 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Caveat"; src: url("/fonts/caveat-latin-wght-normal.woff2") format("woff2"); font-weight: 400 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Courier Prime"; src: url("/fonts/courier-prime-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+/* Carousel overlays, after Interview Magazine: a condensed grotesk for the
+   cover headline, a text serif for quotes. Klim TEST files (prototype only). */
+@font-face { font-family: "Founders Condensed"; src: url("/fonts/TestFoundersGroteskCondensed-Medium.otf") format("opentype"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Tiempos Text"; src: url("/fonts/TestTiemposText-Regular.otf") format("opentype"); font-weight: 400; font-style: normal; font-display: swap; }
+/* Closest matches to NYTMag Serif Text (a custom NYT face, not available),
+   from Klim's TEST files: Martina Plantijn Light and Heldane Text. */
+@font-face { font-family: "Martina Plantijn"; src: url("/fonts/TestMartinaPlantijn-Light.otf") format("opentype"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "Martina Plantijn"; src: url("/fonts/TestMartinaPlantijn-LightItalic.otf") format("opentype"); font-weight: 300; font-style: italic; font-display: swap; }
+@font-face { font-family: "Heldane Text"; src: url("/fonts/TestHeldaneText-Regular.otf") format("opentype"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Martina Plantijn"; src: url("/fonts/TestMartinaPlantijn-Regular.otf") format("opentype"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Martina Plantijn"; src: url("/fonts/TestMartinaPlantijn-Italic.otf") format("opentype"); font-weight: 400; font-style: italic; font-display: swap; }
